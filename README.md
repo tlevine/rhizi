@@ -44,7 +44,16 @@ ruby-sass
 </code>
 
 ## Generic
-use pip to install all requirements
+Install ant, pip, and gem. It'll be something like this.
+
+    apt-get install ant python-pip gem
+    brew install ant python2-pip gem
+
+Use gem to install SASS.
+
+    gem install sass
+
+Use pip to install all other requirements
 
  $ pip install -r requirements.txt
 
